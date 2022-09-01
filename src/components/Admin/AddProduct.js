@@ -179,7 +179,7 @@ const AddProduct = () => {
         toast({
           title: "Error Adding Product!",
           status: "error",
-          duration: 5000,
+          duration: 7000,
           isClosable: true,
           position: "bottom",
         });
