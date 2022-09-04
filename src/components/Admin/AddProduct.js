@@ -174,6 +174,7 @@ const AddProduct = () => {
           image: "",
           categoryName: "",
         });
+        window.location.reload();
       })
       .catch((err) => {
         toast({
