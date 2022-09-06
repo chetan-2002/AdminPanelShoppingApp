@@ -64,6 +64,7 @@ const DeleteProduct = () => {
           isClosable: true,
         });
         setLoading(false);
+        setProductId("");
       })
       .catch((err) => {
         toast({
@@ -120,7 +121,7 @@ const DeleteProduct = () => {
                 onClick={handleSubmit}
                 isLoading={loading}
               >
-                Delete Category
+                Delete Product
               </Button>
             </Stack>
           </Stack>
