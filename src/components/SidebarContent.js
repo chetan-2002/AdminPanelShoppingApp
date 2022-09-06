@@ -62,11 +62,6 @@ export const SidebarContent = () => {
         <Text textAlign={"center"} fontSize={"6xl"} fontWeight={"extrabold"}>
           Welcome to Admin Dashboard
         </Text>
-        {/* <Box display={"flex"} justifyContent={"center"}>
-          <Button variant={"outline"} colorScheme={"red"}>
-            Log out
-          </Button>
-        </Box> */}
       </Box>
     </Box>
   );

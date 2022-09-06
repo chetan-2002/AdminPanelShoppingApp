@@ -43,7 +43,11 @@ export default function Login() {
     };
 
     axios
-      .post("http://localhost:5000/api/user/login", { email, password }, config)
+      .post(
+        "https://meal-monkey-backend.herokuapp.com/api/user/login",
+        { email, password },
+        config
+      )
       .then((res) => {
         toast({
           title: "Login Successful",

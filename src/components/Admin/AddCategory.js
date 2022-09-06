@@ -47,7 +47,11 @@ const AddCategory = () => {
       },
     };
     axios
-      .post("http://localhost:5000/api/category/addCategory", { name }, config)
+      .post(
+        "https://meal-monkey-backend.herokuapp.com/api/category/addCategory",
+        { name },
+        config
+      )
       .then((res) => {
         toast({
           title: "Category added successfully",

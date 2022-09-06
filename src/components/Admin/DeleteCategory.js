@@ -51,7 +51,7 @@ const DeleteCategory = () => {
     };
     axios
       .post(
-        "http://localhost:5000/api/category/deleteCategory",
+        "https://meal-monkey-backend.herokuapp.com/api/category/deleteCategory",
         { id: categoryId },
         config
       )

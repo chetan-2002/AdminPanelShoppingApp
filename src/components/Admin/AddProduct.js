@@ -30,7 +30,7 @@ const AddProduct = () => {
       },
     };
     axios
-      .get("http://localhost:5000/api/category", config)
+      .get("https://meal-monkey-backend.herokuapp.com/api/category", config)
       .then((res) => {
         for (let i = 0; i < res.data.length; i++) {
           temp.push(res.data[i].name);
@@ -157,7 +157,11 @@ const AddProduct = () => {
       },
     };
     axios
-      .post("http://localhost:5000/api/product/addProduct", product, config)
+      .post(
+        "https://meal-monkey-backend.herokuapp.com/api/product/addProduct",
+        product,
+        config
+      )
       .then((res) => {
         toast({
           title: "Product Added Successfully!",
