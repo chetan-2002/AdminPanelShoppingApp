@@ -160,7 +160,7 @@ const UpdateProduct = () => {
     };
     axios
       .post(
-        "https://meal-monkey-backend.herokuapp.com/product/updateProduct",
+        "https://meal-monkey-backend.herokuapp.com/api/product/updateProduct",
         product,
         config
       )
