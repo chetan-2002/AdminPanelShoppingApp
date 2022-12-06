@@ -48,7 +48,7 @@ const AddCategory = () => {
     };
     axios
       .post(
-        "https://meal-monkey-backend.herokuapp.com/api/category/addCategory",
+        "https://meal-monkey-backend.onrender.com/api/category/addCategory",
         { name },
         config
       )
@@ -128,3 +128,5 @@ const AddCategory = () => {
 };
 
 export default AddCategory;
+
+//https://meal-monkey-backend.herokuapp.com/

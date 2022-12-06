@@ -30,7 +30,7 @@ const AddProduct = () => {
       },
     };
     axios
-      .get("https://meal-monkey-backend.herokuapp.com/api/category", config)
+      .get("https://meal-monkey-backend.onrender.com/api/category", config)
       .then((res) => {
         for (let i = 0; i < res.data.length; i++) {
           temp.push(res.data[i].name);
@@ -158,7 +158,7 @@ const AddProduct = () => {
     };
     axios
       .post(
-        "https://meal-monkey-backend.herokuapp.com/api/product/addProduct",
+        "https://meal-monkey-backend.onrender.com/api/product/addProduct",
         product,
         config
       )

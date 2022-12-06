@@ -52,7 +52,7 @@ const DeleteProduct = () => {
     };
     axios
       .post(
-        "https://meal-monkey-backend.herokuapp.com/api/product/deleteProduct",
+        "https://meal-monkey-backend.onrender.com/api/product/deleteProduct",
         { id: productId },
         config
       )
