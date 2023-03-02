@@ -67,9 +67,37 @@ To use the admin panel, follow these steps:
 
 2. Manage the menu by adding and removing items and updating prices.
 
-3. View and manage orders by marking orders as completed and canceling orders. (Not in production yet👀)
+3. View and manage orders by marking orders as completed and cancelling orders. (Not in production yet👀)
 
 ## Snapshots
+
+1. login and Signup Page
+
+![image](https://user-images.githubusercontent.com/77783033/222412319-6425aadd-8584-4911-b5ba-a1f9ad7784a4.png)
+
+2. Landing Page
+
+![image](https://user-images.githubusercontent.com/77783033/222412880-0daaf67e-4d2b-4140-a3dd-333168a8f5c1.png)
+
+3. Adding a new product 
+
+![image](https://user-images.githubusercontent.com/77783033/222413040-c2290de7-c735-4c6d-868a-1c46dec241f5.png)
+
+4. Deleting a product
+
+![image](https://user-images.githubusercontent.com/77783033/222413111-f0725986-be46-4eb2-b38a-570a0d87e13e.png)
+
+5. Updating Product
+
+![image](https://user-images.githubusercontent.com/77783033/222413204-da46bf9f-14c5-4f80-9fd2-c589fbc474a8.png)
+
+6. Adding a new category
+
+![image](https://user-images.githubusercontent.com/77783033/222413304-2a531fe6-aa61-4664-bffd-432364138fcd.png)
+
+7. Deleting a category
+
+![image](https://user-images.githubusercontent.com/77783033/222413432-9ac837cc-7c06-48e3-81c3-508058515377.png)
 
 ## Contributing
 
